@@ -1,0 +1,20 @@
+.containet {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.containet-logo {
+    border-radius: 5px;
+    margin: auto;
+    width: 500px;
+    height: 670px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-menu {
+    width: 277px;
+}
