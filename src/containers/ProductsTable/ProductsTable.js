@@ -4,6 +4,7 @@ import ButtonProductTable from "../../components/ButtonProductTable/ButtonProduc
 import LogoProductTable from "../../components/LogoProductsTable/LogoProductsTable";
 import "./ProductsTable.css";
 import TodoList from "../ListProducts/ListProducts";
+import categories from "./Category";
 
 function ProductsTable() {
   return (
@@ -14,7 +15,7 @@ function ProductsTable() {
         <ButtonProductTable text="Add product" icon={FaPlus} />
       </div>
       <h3>Products</h3>
-      <TodoList /> 
+      <TodoList categories={categories}/> 
     </div>
 
   );
