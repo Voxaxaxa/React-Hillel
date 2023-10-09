@@ -1,0 +1,20 @@
+.icon-button {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #05BC52;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-icon {
+    margin-right: 10px;
+    color: #000000;
+}
+
+.icon-button:hover {
+    color: #000000;
+    background-color: #05BC52;
+}
