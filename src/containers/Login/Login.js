@@ -1,5 +1,4 @@
 import "./Login.css";
-import Button from "../../components/Button/Button";
 import Input from "../../components/Input/Input";
 import Logo from "../../components/Logo/Logo";
 
@@ -10,7 +9,6 @@ function Login () {
             <div className="login-menu">
                 <Logo/>
                 <Input/>
-                <Button/>
             </div>
             </div>
         </div>

@@ -3,7 +3,6 @@ import "./ListProducts.css";
 import { FaPencilAlt, FaTrashAlt } from "react-icons/fa";
 
 const TodoList = ({ categories }) => {
-  const categoryList = categories;
 
   return (
     <div className="todo-list-container">
@@ -19,7 +18,7 @@ const TodoList = ({ categories }) => {
           </tr>
         </thead>
         <tbody>
-          {categoryList.map((category) => (
+          {categories.map((category) => (
             <tr key={category.id}>
               <td>{category.id}</td>
               <td>{category.category}</td>

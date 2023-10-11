@@ -1,9 +1,12 @@
-import "./Button.css"
+import React from "react";
+import "./Button.css";
 
-function Button () {
-    return (
-        <button className="logo-button">Login</button>
-    )
+function Button({ onClick }) {
+  return (
+    <button className="logo-button" onClick={onClick}>
+      Login
+    </button>
+  );
 }
 
-export default Button; 
+export default Button;
